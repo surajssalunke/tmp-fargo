@@ -35,3 +35,5 @@ type AppNotFoundError struct {
 func (e AppNotFoundError) Error() string {
 	return "Application not found for name=" + e.specific
 }
+
+// nice!
